@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: 'Merienda One', cursive;
 }
 
@@ -29,12 +29,18 @@ a{
   font-size: 1.5rem;
   padding: 29px;
 }
+/* *****************************************id's**************************************** */
+#title-name{
+  font-size: 3rem;
+  font-weight:bolder;
+  color: #91684a;
+}
 
 /* *********************************top container********************************************* */
 .top-container {
   background-color: #a3ddcb;
   text-align: center;
-  padding-top: 19%;
+  padding-top: 9%;
 }
 
 .top-cloud {
@@ -96,18 +102,6 @@ a{
   margin: 27px auto;
 }
 
-.btn {
-  -webkit-border-radius: 60;
-  -moz-border-radius: 60;
-  border-radius: 60px;
-  font-family: Courier New;
-  color: #493323;
-  font-size: 32px;
-  background: #a8a8a8;
-  padding: padding: 11px 28px 11px 28px;
-  border: dotted #000000 5px;
-  text-decoration: none;
-}
 
 .btn:hover {
   background: #ccd8e0;
@@ -124,4 +118,10 @@ a{
   text-align: center;
   background-color: #80ffdb;
   padding: 115px 0px 16px;
+}
+.footer-logo{
+  vertical-align: middle;
+    height: 34px;
+    margin: 0px 37px;
+    width: 34px;
 }
